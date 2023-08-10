@@ -59,11 +59,16 @@ struct ContentView: View {
                         backText = ""
                         projText = "My first childrens book will be out this August! I also have created software that matches ukrainian refugees "
                             
+                            
                     }
+                
                     .font(.title2)
                     .buttonStyle(.borderedProminent)
                     .tint(Color.purple)
-                
+                    
+                    Button ("Hello") {
+                        
+                    }
                 }
                 
             }
